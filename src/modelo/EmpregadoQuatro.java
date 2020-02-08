@@ -3,7 +3,7 @@
  *
  * @author Aline
  */
-
+package modelo;
 public class EmpregadoQuatro extends Empregado{
     
     //atributos exclusivos
