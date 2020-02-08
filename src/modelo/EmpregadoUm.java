@@ -1,7 +1,11 @@
 
 package modelo;
+
+
 public class EmpregadoUm extends Empregado{
 
+	public static int tipo = 1;
+	
     public EmpregadoUm() {
 
     }

@@ -7,6 +7,7 @@ import modelo.Empregado;
 import modelo.EmpregadoDois;
 import modelo.EmpregadoQuatro;
 import modelo.EmpregadoTres;
+import modelo.EmpregadoUm;
 
 public class Teste {
 
@@ -40,20 +41,11 @@ public class Teste {
         }
 
         //Trecho 2 - Listagem 4
-        for (Empregado e : empregados) {
+        for (Empregado e: empregados) {
             System.out.println("Tipo do empregado" + e.getTipo());
             System.out.println("Salario a receber: ");
-            double salarioFinal = 0;
-            if (e.getTipo() == 1) {
-                salarioFinal = e.getSalario();
-            } else if (e.getTipo() == 2) {
-                salarioFinal = e.getSalario() + e.getSalario() * e.getPercentualComissao();
-            } else if (e.getTipo() == 3) {
-                salarioFinal = e.getSalario() + e.getSalario() + e.getPercentualComissao() + e.getBonus();
-            } else if (e.getTipo() == 4) {
-                salarioFinal = e.getBonus();
-            }
-            System.out.println(String.format("%.2f", salarioFinal));
+            salarioFinal();
+
         }
     }
 }
