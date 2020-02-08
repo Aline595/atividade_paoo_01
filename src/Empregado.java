@@ -46,7 +46,7 @@ public class Empregado {
         this.bonus = bonus;
     }
     
-    public void salarioFinal(int tipo){
+    /*public void salarioFinal(int tipo){
         double salarioFinal = 0;
             if (tipo == 1) {
                 salarioFinal = getSalario();
@@ -58,5 +58,8 @@ public class Empregado {
                 salarioFinal = getBonus();
             }
             System.out.println(String.format("%.2f", salarioFinal));
+    }*/
+    public void salarioFinal(){
+        double salarioFinal = getSalario();
     }
 }

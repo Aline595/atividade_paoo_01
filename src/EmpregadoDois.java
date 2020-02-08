@@ -11,6 +11,7 @@ public class EmpregadoDois extends Empregado {
         setPercentualComissao(percentual);
     }*/
     
+    @Override
     public void salarioFinal(){
         double salarioFinal = getSalario() + getSalario() * getPercentualComissao();
     }

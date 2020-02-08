@@ -38,7 +38,7 @@ public class Teste{
             System.out.println("Tipo do empregado" + e.getTipo());
             System.out.println("Salario a receber: ");
             
-            salarioFinal(e.getTipo());
+            //salarioFinal(e.getTipo());
             
         }
     }
