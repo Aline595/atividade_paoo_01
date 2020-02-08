@@ -28,7 +28,6 @@ public class EmpregadoDois extends Empregado {
     }
     
     //sobrepor da classe pai salario final 
-    @Override
     public void salarioFinal(){
         double salarioFinal = getSalario() + getSalario() * getPercentualComissao();
         System.out.println("O salario final e: " + salarioFinal);

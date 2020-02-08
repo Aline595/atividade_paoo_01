@@ -1,6 +1,6 @@
 
 package modelo;
-public class Empregado {
+public abstract class Empregado {
 
     private double salario;
 
@@ -16,8 +16,4 @@ public class Empregado {
         this.salario = salario;
     }
 
-    public void salarioFinal(){
-        double salarioFinal = getSalario();
-        System.out.println("O salario final e: " + salarioFinal);
-    }
 }

@@ -27,7 +27,6 @@ public class EmpregadoQuatro extends Empregado{
         this.bonus = bonus;
     }
     
-    @Override
     public void salarioFinal(){
         double salarioFinal = getBonus();
         System.out.println("O salario final e: " + salarioFinal);
